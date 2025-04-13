@@ -8,7 +8,7 @@ function Header() {
     <header className='header'>
         <div className='header__inner'>
             <h1>
-                <a href="#about" class="navbar__link"><img src={logo} alt="logo" /></a>
+                <a href="#about" className="navbar__link"><img src={logo} alt="logo" /></a>
             </h1>
 
             <nav class="navbar">
