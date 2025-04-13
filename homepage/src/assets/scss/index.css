@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* 폰트-face 정의 */
+@font-face {
+  font-family: "NanumSquareL";
+  src: url("../../../assets/fonts/NanumSquareL.ttf") format("truetype"), url("../../../assets/fonts/NanumSquareL.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquareR";
+  src: url("../../../assets/fonts/NanumSquareR.ttf") format("truetype"), url("../../../assets/fonts/NanumSquareR.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquareB";
+  src: url("../../../assets/fonts/NanumSquareB.ttf") format("truetype"), url("../../../assets/fonts/NanumSquareB.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NanumSquareB";
+  src: url("../../../assets/fonts/NanumSquareB.ttf") format("truetype"), url("../../../assets/fonts/NanumSquareB.otf") format("opentype");
+  font-weight: 800;
+  font-style: normal;
+}
+/* 기본 폰트 설정 */
+body {
+  font-family: "NanumSquareR", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. HTML 요소 기본 스타일 */
+html {
+  font-size: 62.5%; /* 16px (기본 브라우저 크기) * 62.5% = 10px */
+  line-height: 1.5; /* 라인 높이 */
+}
+
+body {
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+/* 3. 타이틀 관련 초기화 */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* 4. 리스트 기본 스타일 초기화 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. 링크 스타일 초기화 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. 테이블 스타일 초기화 */
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0;
+  text-align: left;
+}
+
+/* 7. 버튼 기본 스타일 초기화 */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* 8. 입력, 텍스트영역 초기화 */
+input,
+textarea,
+select,
+button {
+  font: inherit; /* 상속된 폰트를 사용 */
+  margin: 0;
+}
+
+/* 9. 이미지, 비디오 요소 기본 설정 */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.header {
+  width: 100%;
+  background-color: #333333;
+}
+.header__inner {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 128rem;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__inner .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.header__inner .navbar__list {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+}
+.header__inner .navbar__item a {
+  color: white;
+  text-decoration: none;
+}
+.header__inner .navbar__item a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=index.css.map */

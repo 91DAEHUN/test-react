@@ -1,0 +1,34 @@
+/* 폰트-face 정의 */
+@font-face {
+    font-family: 'NanumSquareL';
+    src: url('../../../assets/fonts/NanumSquareL.ttf') format('truetype'),
+         url('../../../assets/fonts/NanumSquareL.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareR';
+    src: url('../../../assets/fonts/NanumSquareR.ttf') format('truetype'),
+         url('../../../assets/fonts/NanumSquareR.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../../../assets/fonts/NanumSquareB.ttf') format('truetype'),
+         url('../../../assets/fonts/NanumSquareB.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NanumSquareB';
+    src: url('../../../assets/fonts/NanumSquareB.ttf') format('truetype'),
+         url('../../../assets/fonts/NanumSquareB.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+  
+/* 기본 폰트 설정 */
+body {
+    font-family: 'NanumSquareR', sans-serif;
+}
