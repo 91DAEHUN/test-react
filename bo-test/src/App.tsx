@@ -6,6 +6,7 @@ import { ariaLabel, PrimeReactProvider } from 'primereact/api';
 import { useEffect } from 'react';
 import { Button } from 'primereact/button'; 
 import { Chart } from 'primereact/chart';
+import CustomDateInput from './CustomDateInput';
 import {
   Chart as ChartJS,
   ArcElement,
@@ -112,6 +113,7 @@ function App() {
         </div>
 
       </PrimeReactProvider>
+      <CustomDateInput/>
     </>
   )
 }
